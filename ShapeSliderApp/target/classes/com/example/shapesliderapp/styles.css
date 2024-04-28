@@ -1,0 +1,11 @@
+ /* ID selector is used */
+#triangle {
+    -fx-fill: rgb(Math.random(),Math.random(),Math.random());
+}
+
+#rectangle {
+    -fx-fill: rgb(Math.random(),Math.random(),Math.random());
+}
+#circle{
+    -fx-fill: rgb(Math.random(),Math.random(),Math.random());
+}
