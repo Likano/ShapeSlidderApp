@@ -75,7 +75,7 @@ public class HelloApplication extends Application {
 
         // button click
         colorBtn.setOnAction(event -> {
-            // Set a random background color for the shape with ID Shape1
+            // random background color for the shape with ID 
             scene1.lookup("#triangle").setStyle("-fx-fill: " + getRandomColor());
         });
 
@@ -107,7 +107,7 @@ public class HelloApplication extends Application {
 
         // button click
         colorBtn1.setOnAction(event -> {
-            // Set a random background color for the shape with ID Shape1
+            // random background color for the shape with ID 
             scene2.lookup("#rectangle").setStyle("-fx-fill: " + getRandomColor());
         });
 
@@ -139,7 +139,7 @@ public class HelloApplication extends Application {
 
         // button click
         colorBtn2.setOnAction(event -> {
-            // Set a random background color for the shape with ID Shape1
+            // random background color for the shape with ID 
             scene3.lookup("#circle").setStyle("-fx-fill: " + getRandomColor());
         });
 
